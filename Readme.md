@@ -56,3 +56,41 @@ Esto porque es mucho más legible el nombre de la funcion que el código sin má
 Finalmente la tercera sustituiria desde `tablero[i][j]==rojo` hasta `j++`
 *esto ultimo no incluido*. **Pero deberian hacerse algunas modificaciones si se quiere crear esta funcion**. Aun asi permitiria aumentar la legibilidad del código una vez hechos los cambios.
 
+## Apartado 4
+
+---
+### javaDoc
+**recorrerTablero**
+```
+     /**
+     * Recorre las distintas posiciones de una tabla 
+     * @param tablero tabla que va a recorrer
+     */
+    static void recorrerTablero(String[] tablero){
+
+    }
+```
+
+**hayFicha**
+```
+/**
+* Comprueba que valor hay en una posicion de un tablero
+* @param valor valor de una posicion en un tablero
+* @return true si el valor no es nulo y false si es nulo
+*/
+static boolean hayFicha(String valor){
+return true;
+}
+```
+**tipoFicha**
+
+```
+    /**
+     * Comprueba el tipo de ficha que hay en un tablero
+     * @param ficha valor de la ficha que hay en una posicion
+     * @return tipo de ficha que hay en la posicion
+     */
+    static String tipoFIcha(String ficha){
+        return "rojo";
+    }
+```
